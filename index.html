@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portal de filmes</title>
+    
+
+</head>
+
+<body>
+    <!-- Header ------------------------------------------------------------------->
+    <header class="container">
+        <div class="navbar">
+            <div class="row">
+                <div class="col-12 col-lg-1 logo"> <img
+                        src="https://th.bing.com/th/id/OIP.1zuENQQtZrVhXX1hja_zYwHaJd?pid=Api&rs=1" alt=""> </div>
+                <div class="col-12 col-lg-8">
+                    <nav class="nav">
+                        <a class="nav-link active" href="#">Lançamentos</a>
+                        <a class="nav-link" href="#">Em destaque</a>
+                        <a class="nav-link" href="#">Avaliações</a>
+                        <a class="nav-link" href="#">Entrevistas & Makingof</a>
+                        <a class="nav-link" href="#">Novidades</a>
+                    </nav>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" aria-label="Small"
+                                aria-describedby="inputGroup-sizing-sm" placeholder="Pesquisa...">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-secondary btn-number">
+                                    <img id="lupa" src="http://cdn.onlinewebfonts.com/svg/img_469993.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header ------------------------------------------------------------------->
+
+    <main class="container">
+
+
+        <div class="lancamento">
+            <h1>Lançamentos</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+
+                            <div class="col-12 col-lg-6">
+                                <iframe width="1189" height="669" src="https://www.youtube.com/embed/zstihByJe9I"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p>Recentemente chegou ao catálogo da Netflix a série original Expresso do Amanhã, que
+                                    desde então tem se mostrado um sucesso para a plataforma. A série é baseada em um
+                                    filme do diretor Bong-Joon Ho, com o mesmo título, feito em 2013. No entanto, logo
+                                    quando o streaming anunciou mais detalhes a respeito da série, há algumas semanas
+                                    atrás, fez questão de esclarecer que Expresso do Amanhã é diferente do filme do
+                                    diretor coreano.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <div class="col-12 col-lg-6">
+                                <iframe width="1189" height="669" src="https://www.youtube.com/embed/M7Qp-UX7hXU"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p>O tempo passou para Rambo (Sylvester Stallone), agora ele vive recluso e trabalha em
+                                    um rancho que fica na fronteira entre os Estados Unidos e o México. Sua vida antiga
+                                    marcada por lutas violentas, mas quase sempre vitoriosas, ficou no passado.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <div class="col-12 col-lg-6">
+                                <iframe width="1189" height="495" src="https://www.youtube.com/embed/PPcr-jc4OU8"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p>Sonic filme completo, aproveite ;).</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="destaque">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h1>Em destaques</h1>
+                </div>
+                <div class="col-12 col-lg-6">
+
+
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Todos</option>
+                        <option value="1">Aventura</option>
+                        <option value="2">Romance</option>
+                        <option value="3">Comédia</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top"
+                            src="https://upload.wikimedia.org/wikipedia/pt/4/47/Cinderela_Baiana.jpg"
+                            alt="Card image cap">
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://i.imgur.com/HPxXrJx.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top"
+                            src="https://i.pinimg.com/originals/a6/61/05/a66105951a0ccc2c97cf2515acd8e986.jpg"
+                            alt="Card image cap">
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://i.imgur.com/tM5wseF.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="butao">
+                <button type="button" class="btn btn-dark">Mais filmes</button>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <h1>Últimas Avaliações</h1>
+        <div class="row aval">
+
+            <div class="col-12 col-lg-4">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img src="https://th.bing.com/th/id/OIP.JT4C3LmlG4SUYkD4nKj5kwHaFz?pid=Api&rs=1" alt="">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <h3>Nome</h3>
+                        Não tem nem como classificar esse filme ... é tão ruim que eu dei risada quase o filme todo.
+                        Extremamente mal feito, acho que se eu pegasse uma câmera e inventasse qualquer história ficaria
+                        muito melhor que isso. A Carla Perez deveria sentir vergonha de ter feito isso ai.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img src="https://cinemacao.com/wp-content/uploads/2016/01/Cinderela-baiana-dan%C3%A7ando-1.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <h3>Nome</h3>
+                        Um dos mais brilhantes filmes já feitos na história do cinema em todos os tempos. Uma
+                        emocionante história que conta com a atuação magistral grandes nomes da dramaturgia brasileira,
+                        destacando Carla Perez e Alexandre pires. Com direção impecável e um roteiro
+                        que parece inaugurar um novo estilo cinematográfico no cinema brasileiro “cinderela baiana” nos
+                        conduz a uma profunda reflexão existencial sobre o sentido da vida em sua relação profunda com a
+                        música e a dança.
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img src="https://avvesione.files.wordpress.com/2011/01/puella_magi_madoka_magica-01-02.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <h3>Nome</h3>
+                        O brilho inovador de Boku no Hero está na aproximação com o ocidente: apesar de se passar no
+                        Japão, o anime abraça o estilo estadunidense das histórias em quadrinhos para moldar o enredo,
+                        em um sincretismo cultural no qual o produto final funciona muito bem.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="butao">
+            <button type="button" class="btn btn-dark">Mais Avaliações</button>
+        </div>
+
+
+        <div class="Entrevistas">
+            <h1>Entrevistas</h1>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <iframe src="https://www.youtube.com/embed/AdRCHSui4rc" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3> <b>Filme: </b> Mundial Fnatic </h3>
+                    <p><b>Diretor:</b> Erick</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-7"><b>Roteiro:</b> Erick</div>
+                        <div class="col-12 col-lg-5"><b>Estreia:</b> 2019</div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <iframe src="https://www.youtube.com/embed/eIzGXt--Ig4" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3> <b>Documentário: </b> Break Point </h3>
+                    <p><b>Diretor:</b> Philipi</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-7"><b>Roteiro:</b> Philipi</div>
+                        <div class="col-12 col-lg-5"><b>Estreia:</b> 2019</div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <iframe src="https://www.youtube.com/embed/vBiLiWPzbkQ" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3> <b>Música: </b> Musica Tektronics </h3>
+                    <p><b>Diretor:</b> Philipi</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-7"><b>Roteiro:</b> Philipi</div>
+                        <div class="col-12 col-lg-5"><b>Estreia:</b> 2019</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <h1>Novidades</h1>
+        <div class="row">
+
+
+            <div class="Novidades col-12 col-lg-8">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img src="https://observatoriodocinema.bol.uol.com.br/wp-content/uploads/2019/07/cropped-vingadores-ultimato-2.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        “Tudo em ‘Ultimato’ foi muito especial para mim. Você quase sente como se estivesse vivendo uma
+                        memória; você sente como se o momento já tivesse passado, então você está realmente tentando
+                        aproveitar e apreciar como foi essa jornada. Como eu disse, em ‘Ultimato’, há ótimos momentos.
+                        Eu amo as cenas com o Robert Downey Jr. Adoro ver a evolução desses dois personagens. Eles
+                        geralmente dão ao Capitão América grandes discursos motivacionais e coisas assim. Qualquer uma
+                        dessas cenas em que todos nós estamos juntos é um momento especial”.
+                    </div>
+
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img src="https://uploads.metropoles.com/wp-content/uploads/2020/10/04133519/Eduardo-e-M%C3%B4nica-RED-600x400-1.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        Filme sobre a música do Religião Urbana é adiado novamente.
+                    </div>
+
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img src="https://williansallan.files.wordpress.com/2011/03/lanterna-verde.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        Ator Ryan Reynolds diz que se arrepende da participação do filme Lanterna Verde de 2011."Pode não ter sido
+                        a melhor experiência, mas aprendi muito".
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-12 col-lg-4 perfil">
+
+                <h1>Sobre</h1>
+                Criado e produzido Por Hugo Guimarães Maia, com o intuito de testar e melhorar as capacidades de
+                desenvolvimento WEB, para isso foi utilizado as ferramentas de tecnologia: HTML5, CSS3 e BOOTSTRAP
+                <br>
+                <h1>Editorial</h1>
+                <img src="https://cdn.icon-icons.com/icons2/1674/PNG/512/person_110935.png" alt="">
+                <b>Redação</b> Hugo Maia
+
+                <br>
+                <img src="https://cdn.icon-icons.com/icons2/1674/PNG/512/person_110935.png" alt="">
+                <b>Pesquisa</b> Raphael Lulliy
+                <br>
+                <img src="https://cdn.icon-icons.com/icons2/1674/PNG/512/person_110935.png" alt="">
+                <b>Gerente Geral</b> Neymar Jr
+                <br>
+                <h3>Redes Sociais</h3>
+                <div class="row social">
+                    <div class="col-2"> <img src="https://th.bing.com/th/id/OIP.L_ihpPL5_ypg6tXvAqAMagHaHa?pid=Api&rs=1"
+                            alt=""></div>
+                    <div class="col-2"> <img
+                            src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png"
+                            alt=""></div>
+                    <div class="col-2"> 
+                            <a href="https://www.linkedin.com/in/hugo-maia-1a2510195/">
+                                <img src="https://th.bing.com/th/id/OIP.T4bvEvcT3fsTRXfRD1HxpwHaHa?pid=Api&rs=1"
+                                alt="">
+                            </a>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer class="container"></footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>

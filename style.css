@@ -1,0 +1,64 @@
+.logo img{
+    width: 50%;
+}
+.aval img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card-img-top{
+    width: 270px;
+    height: 400px;
+}
+.Entrevistas{
+    background-color: #ccc;
+    padding: 20px 50px;
+
+}
+
+.Novidades img{
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.perfil img{
+    width: 40px;
+    height: 40px;
+}
+
+.social img{
+    width: 40px;
+    height: 40px;
+}
+
+.lancamento{
+    padding: 30px 30px 30px;
+    
+    background-color: #ccc;
+}
+.lancamento iframe{
+    width: 400px;
+    height: 300px;
+}
+.lancamento h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.destaque{
+    padding: 20px 20px 20px;
+}
+.butao{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+    
+}
+
+#lupa{
+    width: 16px;
+    height: 16px;
+}
+
