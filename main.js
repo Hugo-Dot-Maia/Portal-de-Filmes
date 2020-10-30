@@ -1,7 +1,9 @@
-window.onscroll = function() {myFunction()};
-
 //Pega o Botão
 var navbar = document.getElementById("navigation");
+
+window.onscroll = function() {myFunction()};
+
+
 
 //Pega a posição inicial
 var sticky = navbar.offsetTop;
@@ -17,9 +19,9 @@ function myFunction() {
 
 
 //Pega o Botão
- var mybutton = document.getElementById("myBtn");
+ //var mybutton = document.getElementById("myBtn");
  
-// When the user clicks on the button, scroll to the top of the document
+// Função que volta ao início da página
 function topFunction() {
   document.body.scrollTop = 0; //  Safari
   document.documentElement.scrollTop = 0; // Chrome, Firefox, IE e Opera
