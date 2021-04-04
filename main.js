@@ -18,9 +18,6 @@ const myFun = () => {
   }
 }
 
-//LULLI TAVA AQ
-//aleatório
-
 //Pega o Botão
  //var mybutton = document.getElementById("myBtn");
  
