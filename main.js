@@ -18,8 +18,6 @@ const myFun = () => {
   }
 }
 
-//aleatório
-
 //Pega o Botão
  //var mybutton = document.getElementById("myBtn");
  
