@@ -9,7 +9,8 @@ window.onscroll = function() {myFunction()};
 var sticky = navbar.offsetTop;
 
 //Adiciona a classe de fixação a barra de pesquisa
-function myFunction() {
+
+const myFun = () => {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
@@ -17,6 +18,7 @@ function myFunction() {
   }
 }
 
+//aleatório
 
 //Pega o Botão
  //var mybutton = document.getElementById("myBtn");
